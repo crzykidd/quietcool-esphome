@@ -11,12 +11,6 @@ substitutions:
   mac_address: "00:00:00:00:00:00"
 
 
-# Enable captive portal for initial WiFi setup
-captive_portal:
-
-# WiFi configuration with fallback access point
-wifi:
-  ap:
 
 # BLE configuration for connecting to the QuietCool fan
 # Uses passive scanning to preserve battery life
