@@ -11,13 +11,6 @@ substitutions:
   mac_address: "00:00:00:00:00:00"
 
 
-# Enable Home Assistant API integration
-api:
-
-# Enable Over-The-Air updates
-ota:
-  - platform: esphome
-
 # Enable captive portal for initial WiFi setup
 captive_portal:
 
