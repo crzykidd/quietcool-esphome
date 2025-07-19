@@ -11,16 +11,16 @@ substitutions:
   mac_address: "00:00:00:00:00:00"
 
 # Basic ESPHome device configuration
-esphome:
-  name: quietcool-fan
-  friendly_name: QuietCool Fan
-  name_add_mac_suffix: true
+#esphome:
+#  name: quietcool-fan
+#  friendly_name: QuietCool Fan
+#  name_add_mac_suffix: true
 
 # Hardware configuration for ESP32 development board
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
+#esp32:
+#  board: esp32dev
+#  framework:
+#    type: arduino
 
 # Enable Home Assistant API integration
 api:
